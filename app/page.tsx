@@ -1,5 +1,12 @@
 import Image from "next/image";
+import Hero from "./componenets/Hero";
+import Newest from "./componenets/Newest";
 
 export default function Home() {
-  return <div>hello from the page.tsx</div>;
+  return (
+    <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
+      <Hero />
+      <Newest />
+    </div>
+  );
 }
