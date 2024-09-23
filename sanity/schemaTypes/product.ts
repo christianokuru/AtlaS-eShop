@@ -24,13 +24,18 @@ export default {
       type: 'slug',
       title: 'Product Slug',
       options: {
-        source: 'name',
+        source: 'name', //using the product name as a slug
       },
     },
     {
       name: 'price',
       type: 'number',
       title: 'Price',
+    },
+    {
+      name: 'price_id',
+      title: 'Stripe Price ID',
+      type: 'string',
     },
     {
       name: 'category',
